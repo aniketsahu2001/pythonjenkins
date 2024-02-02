@@ -6,7 +6,7 @@ node {
         sh 'python3 -m venv .'
   }
   stage("Installing") {
-     sh './bin/pip install -r requirements.txt'
+     sh './bin/pip install -r requirement.txt'
   }
   stage("Deploying") {
     sh 'python3 app1.py'
