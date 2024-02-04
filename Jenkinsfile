@@ -15,5 +15,6 @@ node {
     emailext body: ' Deployed Successfully ' , 
         subject: 'App Deployed Status' , 
         to: 'aniketsahu473@gmail.com'
-  }
+  }3
+  .
 }
